@@ -1,6 +1,6 @@
 # DOCKER-CAKEPHP
 
-A simple Docker image for CakePHP 3 development.
+A simple Docker image for CakePHP 3 development, supporting SQLite databases.
 
 ## Usage
 
