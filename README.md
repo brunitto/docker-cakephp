@@ -4,9 +4,12 @@ A simple Docker image for CakePHP 3 development.
 
 ## Usage
 
-Just execute:
+Change the working directory to your CakePHP 3 application directory and
+execute:
 
-    $ docker run --name cakephp_1 -v "$PWD:/usr/src/cakephp" -P -d brunitto/docker-cakephp
+    $ docker run --name cakephp_1 -v "$PWD:/usr/src/cakephp" -P -d brunitto/cakephp
+
+Change `cakephp_1` to your container name.
 
 ## Issues
 
